@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    margin-left: 30px;
+    text-emphasis-color: green;
+}
+
+body.white-mode {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  body.dark-mode {
+    background-color: #000;
+    color: #fff;
+    
+  }
+  .dark-mode h1{
+    color: #fff;
+  }
+  .white-mode h1{
+    color: #000; 
+  }
+  .dark-mode p{
+    color: #fff;
+  }
+  .white-mode p{
+    color: #000; 
+  }
+
+.ter{
+    position: absolute;
+ margin-left: 1205px;
+ margin-top: -80px;
+ font-size: 20px;
+ 
+}
+
+
